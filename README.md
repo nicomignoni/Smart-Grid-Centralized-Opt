@@ -3,12 +3,12 @@ Scripts for a university project, a simple centralized/cooperative smart grid en
 The smart grid topology is depicted in the following figures
 
 <div align="center">
- <p align="left">
+ <span align="left">
   <img src="img/schema.png" width=350>
- </p>
- <p align="right">
+ </span>
+ <span align="right">
   <img src="img/prosumer.png" width=350>
- </p>
+ </span>
 </div>
 
 given the tensor of variables
