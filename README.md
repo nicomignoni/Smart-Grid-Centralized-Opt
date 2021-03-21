@@ -3,7 +3,7 @@ Scripts for a university project, a simple centralized/cooperative smart grid en
 ## Brief formulation
 The smart grid topology is depicted in the following figures
 
-<div align="center" style="{display: flex; justify-content: space-between; align-items: center;}">
+<div align="center" style="{display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding:10px;}">
     <img src="img/schema.png" width=350 style="{flex: 1}">
     <img src="img/prosumer.png" width=350 style="{flex: 1}">
 </div>
