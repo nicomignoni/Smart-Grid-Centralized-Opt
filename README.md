@@ -4,7 +4,7 @@ Scripts for a university project, a simple centralized/cooperative smart grid en
 The smart grid topology is depicted in the following figures
 
 <div align="center" style="{display: flex;}">
-    <img src="img/schema.png" width=350 style="{padding: 20px}"><img src="img/prosumer.png" width=350 style="{padding: 20px}">
+    <img src="img/schema.png" width=350 style="{float: left;}"><img src="img/prosumer.png" width=350 style="{float: right;}">
 </div>
 
 given the tensor of variables
