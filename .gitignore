@@ -1,3 +1,5 @@
 *.zip
 img/*
-smart_grid_centralized/old/*
+!img/prosumer.png
+!img/schema.png
+smart_grid_centralized/plots/old/*
