@@ -4,11 +4,11 @@ Scripts for a university project, a simple centralized/cooperative smart grid en
 The smart grid topology is depicted in the following figures
 
 <div align="center">
- <span align="left">
+ <span>
   <img src="img/schema.png" width=350 style="{margin-left: auto; margin-right: auto;}">
  </span>
- <span align="right" style="{margin-left: auto; margin-right: auto;}>
-  <img src="img/prosumer.png" width=350>
+ <span>
+  <img src="img/prosumer.png" width=350 style="{margin-left: auto; margin-right: auto;}>
  </span>
 </div>
 
