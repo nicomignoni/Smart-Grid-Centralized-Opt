@@ -1,14 +1,14 @@
 Scripts for a university project, a simple centralized/cooperative smart grid energy cost minimization problem.
 
 ## Brief formulation
-The smart grid topology is depicted in the following figures
+The smart grid topology is depicted in the figure on the left, while the single prosumer energy flow in the figure on the right.
 
-<div align="center" style="{display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding:10px;}">
-    <img src="img/schema.png" width=350 style="{flex: 1}">
-    <img src="img/prosumer.png" width=350 style="{flex: 1}">
+<div align="center" style="{display: flex; flex-direction: row; justify-content: space-between;}">
+    <img src="img/schema.png" width=350 style="{flex: 1;}">
+    <img src="img/prosumer.png" width=350 style="{flex: 1;}">
 </div>
 
-given the tensor of variables
+The tensor of variables is
  <div align="center">
   <img src="https://latex.codecogs.com/gif.latex?%5Cboldsymbol%7B%5CPhi%7D_%7Btn%7D%20%3D%20%5B%5Bp_%7Btn%7D%5E%7BR%20%5Cto%20D%7D%2C%20p_%7Btn%7D%5E%7BR%20%5Cto%20E%7D%2C%20p_%7Btn%7D%5E%7BS%20%5Cto%20D%7D%2C%20p_%7Btn%7D%5E%7BS%20%5Cto%20E%7D%2C%20p_%7Btn%7D%5E%7BS%20%5Cto%20R%7D%2C%20p_%7Btn%7D%5E%7BE%20%5Cto%20D%7D%2C%20p_%7Btn%7D%5E%7BE%20%5Cto%20R%7D%2C%20e_%7Btn%7D%5D%5D%20%5Cin%20%5Cmathbb%7BR%7D%5E%7B%5CPhi%20%5Ctimes%20T%20%5Ctimes%20N%7D">
  </div>
