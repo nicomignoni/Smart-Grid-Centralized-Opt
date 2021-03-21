@@ -1,12 +1,13 @@
 Scripts for a university project, a simple centralized/cooperative smart grid energy cost optimization problem.
 
+## Brief formulation
 The smart grid topology is depicted in the following figures
 
 <div align="center">
  <span align="left">
-  <img src="img/schema.png" width=350>
+  <img src="img/schema.png" width=350 style="{margin-left: auto; margin-right: auto;}">
  </span>
- <span align="right">
+ <span align="right" style="{margin-left: auto; margin-right: auto;}>
   <img src="img/prosumer.png" width=350>
  </span>
 </div>
@@ -16,7 +17,7 @@ given the tensor of variables
   <img src="https://latex.codecogs.com/gif.latex?%5Cboldsymbol%7B%5CPhi%7D_%7Btn%7D%20%3D%20%5B%5Bp_%7Btn%7D%5E%7BR%20%5Cto%20D%7D%2C%20p_%7Btn%7D%5E%7BR%20%5Cto%20E%7D%2C%20p_%7Btn%7D%5E%7BS%20%5Cto%20D%7D%2C%20p_%7Btn%7D%5E%7BS%20%5Cto%20E%7D%2C%20p_%7Btn%7D%5E%7BS%20%5Cto%20R%7D%2C%20p_%7Btn%7D%5E%7BE%20%5Cto%20D%7D%2C%20p_%7Btn%7D%5E%7BE%20%5Cto%20R%7D%2C%20e_%7Btn%7D%5D%5D%20%5Cin%20%5Cmathbb%7BR%7D%5E%7B%5CPhi%20%5Ctimes%20T%20%5Ctimes%20N%7D">
  </div>
  
- where ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20D) is the domestic _demand_, ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20S) is the _PV generator_, ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20E) is the _storage_ and the notation ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20p_%7Btn%7D%5E%7BX%20%5Cto%20Y%7D) is the energy dispatched from device ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20X) to device ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20Y) at time ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20t) for prosumer ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20n).
+ where ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20D) is the domestic _demand_, ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20S) is the _PV generator_, ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20E) is the _storage_ and the notation ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20p_%7Btn%7D%5E%7BX%20%5Cto%20Y%7D) stands for the energy dispatched from device ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20X) to device ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20Y) at time ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20t) for prosumer ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20n).
  
 The optimization problem is 
 
