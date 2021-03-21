@@ -1,7 +1,7 @@
 Scripts for a university project, a simple centralized/cooperative smart grid energy cost minimization problem.
 
 ## Brief formulation
-The smart grid topology is depicted in the figure on the left, while the single prosumer energy flow in the figure on the right.
+The smart grid topology is depicted in the figure on the left, while on the right the single prosumer energy flow.
 
 <div align="center" style="{display: flex; flex-direction: row; justify-content: space-between;}">
     <img src="img/schema.png" width=350 style="{flex: 1;}">
