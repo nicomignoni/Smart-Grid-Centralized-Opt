@@ -1,4 +1,4 @@
-Scripts for a university project, a simple centrlized/cooperative smart grid energy cost optimization problem.
+Scripts for a university project, a simple centralized/cooperative smart grid energy cost optimization problem.
 
 # References
 
