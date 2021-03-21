@@ -1,12 +1,11 @@
-Scripts for a university project, a simple centralized/cooperative smart grid energy cost optimization problem.
+Scripts for a university project, a simple centralized/cooperative smart grid energy cost minimization problem.
 
 ## Brief formulation
 The smart grid topology is depicted in the following figures
 
 <div align="center" style="{display: flex;}">
-    <img src="img/schema.png" width=350><img src="img/prosumer.png" width=350>
+    <img src="img/schema.png" width=350 style="{padding: 20px}"><img src="img/prosumer.png" width=350 style="{padding: 20px}">
 </div>
-
 
 given the tensor of variables
  <div align="center">
@@ -18,7 +17,7 @@ given the tensor of variables
 The optimization problem is 
 
 <div align="center">
-    <img src="https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cmin_%7B%5Cboldsymbol%7B%5CPhi%7D_%7Btn%7D%7D%7B%5Csum_%7Bt%7D%7B%7D%20%5CBig%28C_t%20%5Csum_%7Bn%7D%7B%7D%20%28p_%7Btn%7D%5E%7BR%20%5Cto%20D%7D%20&plus;%20p_%7Btn%7D%5E%7BR%20%5Cto%20E%7D%29%20-%20R_t%20%5Csum_%7Bn%7D%7B%7D%20%28p_%7Btn%7D%5E%7BS%20%5Cto%20R%7D%20&plus;%20p_%7Btn%7D%5E%7BE%20%5Cto%20R%7D%29%5CBig%29%7D%2C%20%5C%20%5Cforall%20t%20%5C%20%5Cforall%20n">
+    <img src="https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cdisplaystyle%20%5Cmin_%7B%5Cboldsymbol%7B%5CPhi%7D_%7Btn%7D%7D%7B%5Csum_%7Bt%7D%7B%7D%20%5CBig%28C_t%20%5Csum_%7Bn%7D%7B%7D%20%28p_%7Btn%7D%5E%7BR%20%5Cto%20D%7D%20&plus;%20p_%7Btn%7D%5E%7BR%20%5Cto%20E%7D%29%20-%20R_t%20%5Csum_%7Bn%7D%7B%7D%20%28p_%7Btn%7D%5E%7BS%20%5Cto%20R%7D%20&plus;%20p_%7Btn%7D%5E%7BE%20%5Cto%20R%7D%29%5CBig%29%7D">
 </div>
 
 subject to
