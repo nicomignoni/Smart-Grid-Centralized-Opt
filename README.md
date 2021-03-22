@@ -3,9 +3,8 @@ Scripts for a university project, a simple centralized/cooperative smart grid en
 ## Brief formulation
 The smart grid topology is depicted in the figure on the left, while on the right the single prosumer energy flow.
 
-<div align="center" style="{display: flex; flex-direction: row; justify-content: space-between;}">
-    <img src="img/schema.png" width=350 style="{flex: 1;}">
-    <img src="img/prosumer.png" width=350 style="{flex: 1;}">
+<div align="center">
+    <img src="img/schema_and_prosumer.png" width=350>
 </div>
 
 The tensor of variables is
