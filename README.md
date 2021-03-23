@@ -32,3 +32,5 @@ N. Vespermann, T. Hamacher and J. Kazempour, "Access Economy for Storage in Ener
 
 N. Vespermann, T. Hamacher, and J. Kazempour, "Electronic companion: Access economy for storage in energy communities", Technical
 University of Munich, Tech. Rep., 2020. [Online], https://bitbucket.org/nivesp/marketdesign_energycommunities/.
+
+Paul Neetzow, Roman Mendelevitch, Sauleh Siddiqui, "Modeling coordination between renewables and grid: Policies to mitigate distribution grid constraints using residential PV-battery systems", Energy Policy, Volume 132, 2019, https://doi.org/10.1016/j.enpol.2019.06.024.
